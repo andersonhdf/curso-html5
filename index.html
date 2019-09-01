@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>minha primeira pagina</title>
+<!-- Declarando estilo -->
+	<style>
+	body{
+background-color: rgb(54,54,54);
+color: DarkTurquoise;
+}
+	</style>
+</head>
+<body>
+<p>paragrafo</p>
+<hr>
+sem a tag p
+ela nao separa paragrafos
+mas com a tag<br>ele quebra a linha sem precisar do p
+
+<h1>titulo</h1>
+<h2>titulo</h2>
+<h3>titulo</h3>
+<h4>titulo</h4>
+<h5>titulo</h5>
+<h6>titulo</h6>
+<p><b><i>texto comum</p>
+
+	<p>
+    <b>Texto em negrito</b><br>
+    <i>Texto em itálico</i><br>
+    <u>Texto sublinhado</u><br>
+    <sub>Texto subscrito</sub><br>
+    <sup>Texto sobrescrito</sup><br>
+    <big>Texto com fonte maior do que o padrão</big><br>
+    <small>Texto com fonte menor do que o padrão</small><br>
+    <em>Texto em itálico</em><br>
+    <strong>Texto em negrito</strong>
+</p>
+
+<!-- Declarando uma única fonte -->
+<p style="font-family: 'Arial'">Olá, mundo!</p>
+ 
+<!-- Declarando duas possíveis fontes -->
+<p style="font-family: 'Times New Roman, Arial'">Olá, mundo novamente!</p>
+
+<!-- Lista ordenada -->
+<ol>
+<li>Primeiro elemento</li>
+<li>Segundo elemento</li>
+<li>Terceiro elemento</li>
+</ol>
+<!-- Lista não ordenada -->
+<ul>
+<li>Primeiro elemento</li>
+<li>Segundo elemento</li>
+<li>Terceiro elemento</li>
+</ul>
+
+<img src="IMG-20190506-WA0033.jpg" height="400px">
+
+<br>
+
+<a href="https://www.linkedin.com/in/andersonhdf/">linkedin?</a>
+
+<br>
+
+<form action="process.php"method="post">
+
+<label>Text</label>
+<input type="text" name="texto1"placeholder="Text">
+<br>
+<label>Password</label>
+<input type="Password" name="senha">	
+<br>
+<label>oculto</label>
+<input type="hidden" name="informacao_oculta" value="mensagem_oculta">
+<br>
+<label>Select</label>
+<select name="selecao">
+	<option value="1">opcao 1</option>
+	<option value="2">opcao 2</option>
+</select>
+<br>
+<label>Radio</label>
+<input type="Radio" name="radio1" value="1">valor 1
+<input type="Radio" name="radio1" value="2">valor 2
+<br>
+<label>Checkbox</label>
+<br>
+<input type="checkbox" name="ck1" value="1">valor 1<br>
+<input type="checkbox" name="ck1" value="2">valor 2<br>
+<input type="checkbox" name="ck1" value="3">valor 3<br>
+<br>
+<input type="submit" value="=enviar" name="submit">
+
+</form>
+
+</body>
+
+
